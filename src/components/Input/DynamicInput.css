@@ -1,0 +1,23 @@
+.input-field {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .input-field.focused {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  
+  .input-field.valid {
+    border-color: #28a745;
+  }
+  
+  .input-field.invalid {
+    border-color: #dc3545;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 0.8em;
+  }
